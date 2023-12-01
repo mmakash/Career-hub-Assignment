@@ -1,0 +1,65 @@
+[
+  { "id": 1,
+    "logo": "/public/data/logo/google.png",
+    "position": "Technical Database Engineer",
+    "companyName": "Google LLC",
+    "location": "New York",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 2,
+    "logo": "/public/data/logo/netflix.png",
+    "position": "Senior Product Designer",
+    "companyName": "Netflix",
+    "location": "San Francisco",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 3,
+    "logo": "/public/data/logo/tesla.png",
+    "position": "Software Engineer",
+    "companyName": "Tesla",
+    "location": "San Francisco",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 4,
+    "logo": "/public/data/logo/airbnb.png",
+    "position": "Financial Analyst",
+    "companyName": "Airbnb",
+    "location": "UAE",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 5,
+    "logo": "/public/data/logo/tiktok.png",
+    "position": "Financial Analyst",
+    "companyName": "Tiktok",
+    "location": "China",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 6,
+    "logo": "/public/data/logo/twitter.png",
+    "position": "Technical Database Engineer",
+    "companyName": "Twitter",
+    "location": "San Francisco",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 7,
+    "logo": "/public/data/logo/facebook.png",
+    "position": "Financial Analyst",
+    "companyName": "META Inc",
+    "location": "San Francisco",
+    "salary": "100k-150k"
+  },
+  {
+    "id": 8,
+    "logo": "/public/data/logo/google.png",
+    "position": "Technical Database Engineer",
+    "companyName": "Google LLC",
+    "location": "New York",
+    "salary": "100k-150k"
+  }
+]
