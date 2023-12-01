@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {},
+    daisyui: {
+      themes: ["light", "dark", "cupcake"],
+    }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

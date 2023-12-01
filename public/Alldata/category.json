@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Account & Finance",
+        "description": "300 Jobs Available",
+        "icon": "/public/data/icons/accounts.png"
+    },
+    {
+        "title": "Creative Design",
+        "description": "100+ Jobs Available",
+        "icon": "/public/data/icons/creative.png"
+    },
+    {
+        "title": "Marketing & Sales",
+        "description": "150 Jobs Available",
+        "icon": "/public/data/icons/marketing.png"
+    },
+    {
+        "title": "Engineering jobs",
+        "description": "224 Jobs Available",
+        "icon": "/public/data/icons/chip.png"
+    }
+      
+]

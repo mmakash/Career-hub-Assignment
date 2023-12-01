@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from './Component/Header';
+import BannerSection from './Component/BannerSection';
+import Category from './Component/Category';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello App</h1>
+      <Header />
+      <BannerSection />
+      <Category />
     </div>
   );
 };
