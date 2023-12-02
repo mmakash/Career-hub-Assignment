@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaDollarSign } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Jobs = () => {
   const [jobs, setJobs] = useState([]);
@@ -12,6 +13,10 @@ const Jobs = () => {
       setJobs(data);
     })();
   }, []);
+
+  // const handleJob = (job) => {
+  //  console.log(job);
+  // }
 
   const displayJobs = showAllJobs ? jobs : jobs.slice(0, 4);
 
@@ -33,11 +38,11 @@ const Jobs = () => {
             >
               <img
                 className="w-28"
-                src={job.logo}
+                src={job.companyLogo}
                 alt=""
               />
-              <h1 className="font-bold text-2xl">{job.position}</h1>
-              <p className="font-semibold">{job.companyName}</p>
+              <h1 className="font-bold text-2xl">{job.jobTitle}</h1>
+              <p className="font-semibold">{job.company}</p>
               <div className="flex space-x-3">
                 <a className="btn border-2 border-sky-500">Remote</a>
                 <a className="btn border-2 border-sky-500">Full Time</a>
@@ -52,7 +57,7 @@ const Jobs = () => {
                 <p>Salary: {job.salary}</p>
                 </div>
               </div>
-              <a className="btn bg-custom-color">View Details</a>
+              <Link to={`/${job.id}`} className="btn bg-custom-color">View Details</Link>
             </div>
           );
         })}

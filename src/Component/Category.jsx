@@ -20,8 +20,8 @@ const Category = () => {
                     categories.map((category)=>{
                         return <div key={category.id} className="card w-96 shadow-xl space-y-4 text-center flex flex-col items-center p-8 bg-cyan-100">
                             <img className='w-7 bg-sky-100 shadow-2xl' src={category.icon} alt="" />
-                            <h1>{category.title}</h1>
-                            <p>{category.description}</p>
+                            <h1 className='font-bold text-2xl'>{category.title}</h1>
+                            <p className="font-semibold">{category.description}</p>
                         </div>
                     })
                 }

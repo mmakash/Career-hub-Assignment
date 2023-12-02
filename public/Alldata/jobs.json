@@ -1,65 +1,147 @@
 [
-  { "id": 1,
-    "logo": "/public/data/logo/google.png",
-    "position": "Technical Database Engineer",
-    "companyName": "Google LLC",
-    "location": "New York",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 2,
-    "logo": "/public/data/logo/netflix.png",
-    "position": "Senior Product Designer",
-    "companyName": "Netflix",
-    "location": "San Francisco",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 3,
-    "logo": "/public/data/logo/tesla.png",
-    "position": "Software Engineer",
-    "companyName": "Tesla",
-    "location": "San Francisco",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 4,
-    "logo": "/public/data/logo/airbnb.png",
-    "position": "Financial Analyst",
-    "companyName": "Airbnb",
-    "location": "UAE",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 5,
-    "logo": "/public/data/logo/tiktok.png",
-    "position": "Financial Analyst",
-    "companyName": "Tiktok",
-    "location": "China",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 6,
-    "logo": "/public/data/logo/twitter.png",
-    "position": "Technical Database Engineer",
-    "companyName": "Twitter",
-    "location": "San Francisco",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 7,
-    "logo": "/public/data/logo/facebook.png",
-    "position": "Financial Analyst",
-    "companyName": "META Inc",
-    "location": "San Francisco",
-    "salary": "100k-150k"
-  },
-  {
-    "id": 8,
-    "logo": "/public/data/logo/google.png",
-    "position": "Technical Database Engineer",
-    "companyName": "Google LLC",
-    "location": "New York",
-    "salary": "100k-150k"
-  }
-]
+    {
+      "id": 1,
+      "companyLogo": "/public/data/logo/google.png",
+      "jobTitle": "Technical Database Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(1)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(1)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(1)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "/public/data/logo/netflix.png",
+      "jobTitle": "Senior Product Designer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(2)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(2)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(2)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "/public/data/logo/tesla.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(3)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(3)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(3)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 4,
+      "companyLogo": "/public/data/logo/airbnb.png",
+      "jobTitle": "Financial Analyst",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(4)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(4)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(4)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 5,
+      "companyLogo": "/public/data/logo/tiktok.png",
+      "jobTitle": "Technical Database Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(5)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(5)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(5)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 6,
+      "companyLogo": "/public/data/logo/twitter.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(6)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(6)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(6)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 7,
+      "companyLogo": "/public/data/logo/facebook.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(7)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(7)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(7)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    },
+    {
+      "id": 8,
+      "companyLogo": "/public/data/logo/google.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "ABC Tech",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeOrPartTime": "Full Time",
+      "salary": "150k-200k",
+      "jobDescription": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..(8)",
+      "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.(8)",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "3+ years of experience in software development...(8)",
+      "contactInformation": {
+        "phone": "123-456-7890",
+        "email": "info@abctech.com"
+      }
+    }
+  ]
+  

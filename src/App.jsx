@@ -1,16 +1,14 @@
 import React from 'react';
 import Header from './Component/Header';
-import BannerSection from './Component/BannerSection';
-import Category from './Component/Category';
-import Jobs from './Component/Jobs';
+import Footer from './Component/Footer';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <BannerSection />
-      <Category />
-      <Jobs />
+      <Outlet />
+      <Footer />
     </div>
   );
 };
